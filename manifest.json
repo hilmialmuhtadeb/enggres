@@ -1,0 +1,42 @@
+{
+  "name": "Enggres",
+  "description": "English to Bahasa Indonesia Translator",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "/images/enggres-16.png",
+    "32": "/images/enggres-32.png",
+    "48": "/images/enggres-48.png",
+    "128": "/images/enggres-128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/enggres-16.png",
+      "32": "/images/enggres-32.png",
+      "48": "/images/enggres-48.png",
+      "128": "/images/enggres-128.png"
+    }
+  },
+  "options_page": "options.html",
+  "host_permissions": [
+    "https://*/*"
+  ],
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "content_scripts": [{
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": [
+      "content.js"
+    ],
+    "css": [
+      "content.css"
+    ]
+  }]
+}

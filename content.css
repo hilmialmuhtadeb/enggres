@@ -1,0 +1,13 @@
+.bubble {
+  position: fixed;
+  top: 4em;
+  left: 4em;
+  width: 60%;
+  padding: 1em;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  font-family: monospace;
+  z-index: 99;
+}
