@@ -5,6 +5,8 @@ Chrome Extension - English to Bahasa Indonesia Translator.
 
 ## Pasangnya gimana?
 
+Tutorial install dan pake : https://youtu.be/pZpPgxcw1Pw atau klik <a href="https://youtu.be/pZpPgxcw1Pw">di sini</a>.
+
 1. Download folder ini dalam bentuk ZIP, lalu extract.
 2. Buka Chrome, pilih ektensi, lalu kelola ekstensi.
 3. Klik "Mode Pengembang" atau "Developer Mode" di pojok kanan atas.
