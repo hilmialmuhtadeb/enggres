@@ -10,9 +10,14 @@ Chrome Extension - English to Bahasa Indonesia Translator.
 3. Klik "Mode Pengembang" atau "Developer Mode" di pojok kanan atas.
 4. Klik "Load Unpacked", lalu pilih folder hasil download yang sudah di-unzip.
 5. Ekstensi siap digunakan.
-   
+
+<img src="https://i.ibb.co/bBx8NQX/installation.gif" alt="installation" border="0" width="100%">
+
 ## Gimana pakainya alias how to use?
 
-- Untuk menerjemahkan, block tulisan yang diinginkan.
-- Untuk menghilangkan hasil terjemahan, klik dua kali.
-- Untuk menonaktifkan ekstensi, pergi ke kelola ekstensi, lalu matikan.
+### Untuk menerjemahkan, block tulisan yang diinginkan.
+<img src="https://i.ibb.co/XJzFyws/translate.gif" alt="translate" border="0">
+
+### Untuk menghilangkan hasil terjemahan, klik dua kali.
+### Untuk menonaktifkan ekstensi, pergi ke kelola ekstensi, lalu matikan.
+<img src="https://i.ibb.co/NFVrMy0/disable.gif" alt="disable" border="0">
