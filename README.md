@@ -20,6 +20,11 @@ Tutorial install dan pake : https://youtu.be/pZpPgxcw1Pw atau klik <a href="http
 ### Untuk menerjemahkan, block tulisan yang diinginkan.
 <img src="https://i.ibb.co/XJzFyws/translate.gif" alt="translate" border="0">
 
-### Untuk menghilangkan hasil terjemahan, klik dua kali.
+### Untuk menghilangkan hasil terjemahan.
+untuk menghilangkan bubble hasil terjemahan, bisa dengan double-klik-mouse atau pencet tombol "esc" pada keyboard.
+
 ### Untuk menonaktifkan ekstensi, pergi ke kelola ekstensi, lalu matikan.
 <img src="https://i.ibb.co/NFVrMy0/disable.gif" alt="disable" border="0">
+
+## UPDATE
+sekarang bisa remove bubble dengan tombol "esc" keyboard. Sebelumnya hanya bisa menggunakan double klik.

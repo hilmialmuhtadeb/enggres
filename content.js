@@ -10,8 +10,18 @@ window.addEventListener('mouseup', function () {
   showTranslatedText(selectedText)
 })
 
-this.document.addEventListener('dblclick', function () {
+function removeBubble () {
   document.getElementsByClassName('bubble')[0].remove()
+}
+
+this.document.addEventListener('keyup', function (e) {
+  if (e.key === 'Escape') {
+    removeBubble()
+  }
+})
+
+this.document.addEventListener('dblclick', function () {
+  removeBubble()
 })
 
 function checkIsTranslatable (text) {
