@@ -1,8 +1,14 @@
 // run translator if some text was highlighted
 window.addEventListener('mouseup', function () {
-  const selectedText = this.window.getSelection().toString()
-  if (!checkIsTranslatable(selectedText)) return
-  showTranslatedText(selectedText)
+  chrome.storage.sync.get(['isActive'], function(result) {
+    if (result.isActive) {
+      const selectedText = this.window.getSelection().toString()
+      if (!checkIsTranslatable(selectedText)) return
+      showTranslatedText(selectedText)
+      return
+    }
+    return
+  });
 })
 
 // only translate text with 2 character or greater
@@ -51,8 +57,12 @@ function isBubbleExist () {
 
 // change loading state while text have been translated 
 async function changeBubbleText (el, text) {
-  const translatedText = await getTranslatedText(text)
-  
+  const escapeEnterText = text.replace(/\r?\n|\r/g, " ")
+  if (escapeEnterText.length > 750) {
+    el.innerHTML = '<span class="text-danger">Melebihi batas maksimal (750 karakter).</span>'
+    return
+  }
+  const translatedText = await getTranslatedText(escapeEnterText)
   el.innerText = translatedText
 }
 

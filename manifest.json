@@ -1,7 +1,7 @@
 {
   "name": "Enggres",
   "description": "English to Bahasa Indonesia Translator",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "manifest_version": 3,
   "icons": {
     "16": "/images/enggres-16.png",
@@ -23,10 +23,7 @@
     "https://*/*"
   ],
   "permissions": [
-    "storage",
-    "activeTab",
-    "scripting",
-    "tabs"
+    "storage"
   ],
   "content_scripts": [{
     "matches": [
