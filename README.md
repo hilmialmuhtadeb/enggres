@@ -24,7 +24,10 @@ Tutorial install dan pake : https://youtu.be/pZpPgxcw1Pw atau klik <a href="http
 untuk menghilangkan bubble hasil terjemahan, bisa dengan double-klik-mouse atau pencet tombol "esc" pada keyboard.
 
 ### Untuk menonaktifkan ekstensi, pergi ke kelola ekstensi, lalu matikan.
+sekarang bisa menonaktifkan ekstensi menggunakan toggle di popup ekstensi sebelah atas.
 <img src="https://i.ibb.co/NFVrMy0/disable.gif" alt="disable" border="0">
 
 ## UPDATE
-sekarang bisa remove bubble dengan tombol "esc" keyboard. Sebelumnya hanya bisa menggunakan double klik.
+- sekarang bisa remove bubble dengan tombol "esc" keyboard. Sebelumnya hanya bisa menggunakan double klik.
+- toggle sekarang berfungsi dengan baik. (thanks to kiya for some feedbacks)
+- limit karakter alert ketika mencapai batas maksimal 750 karakter. (thanks to kiya for some feedbacks)
